@@ -4,7 +4,7 @@ It is an IoT-based smart monitoring system that detects anomalies in household p
 It is utilizes LSTM deep learning model architecture.
 ## Table of Contents 
 - [About the Project](#about-the-project)
-- [Tech Stack](#tech-stack)
+- [Hardware and Software Used](#hardware-and-software-used)
 - [Architecture](#architecture)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -22,7 +22,7 @@ Objectives of the project includes:
 Why our project stands out?
 It incorporates region-specific carbon footprint calculations. It includes the integration of renewable energy contributions to power consumption. 
 This eco-friendly approach encourages users to make an informed decision about their energy consumption contributing to a sustainable future. 
-## Tech Stack 
+## Hardware and Software Used 
 - **Hardware:** PeaceFair - PZEM - 004T Electric Energy Metering Power (model bought is 004T-10A, 5V Relay module, CD4051 - analog multiplexer, LCD Module, Esp32 Microcontroller, 5V AC or DC source 
 - **Software:** MATLAB for developing pre-trained deep learning model, Cloud Server - to connect with hardware (with Arduino IDE), Blynk IoT app for user interface
 ## Architecture
