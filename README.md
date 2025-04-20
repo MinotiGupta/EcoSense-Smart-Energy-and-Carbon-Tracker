@@ -11,7 +11,6 @@ It is utilizes LSTM, BiLSTM and GRU deep learning model architecture.
 - [Implementation](#implementation)
 - [Evaluation and Results](#evaluation-and-results)
 - [Conclusion](#conclusion)
-- [License](#license)
 - [Acknowledgement](acknowledgement)
 ## Abstract
 EcoSense is a smart energy and carbon tracking system designed to enhance household energy efficiency and environmental responsibility. It measures real-time power consumption across multiple devices, detects anomalies in power consumption using deep learning networks. It is built around a NodeMCU microcontroller, integrating voltage, current sensors to provide accurate consumption data. Many lightweight deep learning models pre trained with a similar dataset are explored to detect anomalies in power detection. The integrates IoT by using ThingSpeak by Mathworks to display real-time data as user interface. The project uniquely incorporates Tamil Nadu’s specific emission factors to dynamically calculate the carbon impact left behind each and every household.
@@ -87,31 +86,6 @@ Convergence Behaviour: The models appear to converge after around 2000-3000 epoc
 
 ## Conclusion 
 The project aimed to design a system to measure and display power consumption of household devices in real-time. To analyse pattern and anomaly detection of devices using deep learning networks. It also aimed to show the power consumption data through an IoT based web application. The project has made a realistic-model of the working principle. 
-
-## License 
-Copyright (c) [2024] [EcoSense: Smart Energy and Carbon Tracker]  
-In affiliation with Amrita Vishwa Vidyapeetham, Coimbatore, India
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-- The above copyright notice and this permission notice shall be included in all
-  copies or substantial portions of the Software.
-- Any publication or derivative work based on this Software must include the
-  acknowledgment: "Developed in affiliation with Amrita Vishwa Vidyapeetham,
-  Coimbatore, India."
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS (INCLUDING AMRITA VISHWA VIDYAPEETHAM) BE LIABLE
-FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
-THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Acknowledgement 
 We would like to express our heartfelt gratitude to our Dean Dr. Soman K.P. for their invaluable support, guidance, and encouragement throughout the course of this EcoSense: Smart Energy Meter and carbon tracker. 
